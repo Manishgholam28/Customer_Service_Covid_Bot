@@ -1,0 +1,36 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - identity
+  - date_time
+  - corona_info
+  - corona_spread
+  - corona_harm
+  - corona_stop
+  - corona_vaccine
+  
+actions:
+  - action_date_time
+  - action_corona_info
+  - action_corona_spread
+  - action_corona_harm
+  - action_corona_stop
+  - action_corona_vaccine
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+  
+  utter_identity:
+  - text: "I am a covbot, created by Rishabh, Swapnil and Manish."
+  
+  
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

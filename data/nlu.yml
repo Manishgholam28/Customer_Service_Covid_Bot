@@ -1,0 +1,86 @@
+version: "2.0"
+
+nlu:
+   
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    
+- intent: date_time
+  examples: |
+    - what is the time
+    - can you tell me the time
+    - what is the date today
+    - can you tell me today's date
+
+
+- intent: identity
+  examples: |
+    - who are you
+    - are you a person 
+    - do you breath
+    - do you have life
+    - can you live like a human
+    - can you eat like a human
+    - are you a bot
+    - can you understand emotions
+     
+- intent: corona_info
+  examples: |
+    - What is corona virus
+    - Tell me about Corona
+    - Why is Corona virus
+    - Expain about corona virus
+    - corona
+
+- intent: corona_spread
+  examples: |
+    - How does Corona virus spread
+    - Corona Spreads
+    - Why does corona spread
+
+- intent: corona_harm
+  examples: |
+    - how does corona harm us
+    - corona harm
+    - corona harmful
+    - corona damaging
+    
+- intent: corona_stop
+  examples: |
+    - How to stop corona virus from spreading
+    - stop corona spread
+    - corona stop spread
+    - avoid corona spread
+    
+- intent: corona_vaccine
+  examples: |
+    - Vaccine near me
+    - Vaccine center near me
+    - Where to take corona vaccine

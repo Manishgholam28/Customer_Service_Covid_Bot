@@ -1,0 +1,67 @@
+version: "2.0"
+
+stories:
+
+- story: identity path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: identity
+  - action: utter_identity
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: date_time path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: date_time
+  - action: action_date_time
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: corona_info path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: corona_info
+  - action: action_corona_info
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: corona_spread path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: corona_spread
+  - action: action_corona_spread
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: corona_harm path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: corona_harm
+  - action: action_corona_harm
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: corona_stop path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: corona_stop
+  - action: action_corona_stop
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: corona_vaccine path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: corona_vaccine
+  - action: action_corona_vaccine
+  - intent: goodbye
+  - action: utter_goodbye
+
